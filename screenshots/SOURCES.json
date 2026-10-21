@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "01-v1-mlp-foundations",
+    "source": "fundamentals/Perceptron&Linear.ipynb \u00b7 cell 17",
+    "description": "Related learning code; original stock MLP not recovered."
+  },
+  {
+    "slug": "02-v2-minmax-normalization",
+    "source": "notebooks/TrainAlgoTraderGRUNormalized.ipynb \u00b7 cell 29",
+    "description": "Recovered GRU preprocessing example; original V2 MLP not recovered."
+  },
+  {
+    "slug": "03-v3-gru-architecture",
+    "source": "notebooks/TrainAlgoTraderGRUNormalized.ipynb \u00b7 cell 87",
+    "description": "Recovered baseline architecture; exact V3 checkpoint not verified."
+  },
+  {
+    "slug": "04-v4-data-pipeline",
+    "source": "notebooks/TrainAlgoTraderGRUNormalized.ipynb \u00b7 cell 24",
+    "description": "20-step inputs and future targets in the recovered preprocessing code."
+  },
+  {
+    "slug": "05-v5-cnn-bigru",
+    "source": "notebooks/TrainStrengthArchitecture.ipynb \u00b7 cell 38",
+    "description": "Recovered TCN/BiGRU variant; BatchNorm + ReLU in each convolution block."
+  },
+  {
+    "slug": "06-v6-autoformer",
+    "source": "notebooks/TrainStrengthArchitecture.ipynb \u00b7 cell 66",
+    "description": "Archived Hugging Face configuration; experimental implementation."
+  },
+  {
+    "slug": "07-v4-dataset-audit",
+    "source": "notebooks/TrainAlgoTraderGRUNormalized.ipynb \u00b7 cell 12",
+    "description": "Original code filtering windows with too few distinct prices."
+  },
+  {
+    "slug": "08-v5-forward-pass",
+    "source": "notebooks/TrainStrengthArchitecture.ipynb \u00b7 cell 38",
+    "description": "Convolution blocks feed a bidirectional GRU and dense output layers."
+  },
+  {
+    "slug": "09-v6-custom-transformer",
+    "source": "src/CustomArchitecture.py",
+    "description": "Separate archived transformer experiment; experimental implementation."
+  },
+  {
+    "slug": "10-v6-saved-forecast",
+    "source": "notebooks/TrainStrengthArchitecture.ipynb \u00b7 cell 88",
+    "description": "Saved forecast plot; qualitative archive evidence, not validated performance."
+  },
+  {
+    "slug": "11-v6-saved-metrics",
+    "source": "notebooks/TrainStrengthArchitecture.ipynb \u00b7 cell 95",
+    "description": "Saved MASE/sMAPE scatter; evaluation split and execution history not verified."
+  }
+]

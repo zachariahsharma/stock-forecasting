@@ -1,0 +1,74 @@
+[
+  {
+    "source": "~/old/content/old/TrainAlgoTraderGRUNormalized.ipynb",
+    "portfolio_path": "notebooks/TrainAlgoTraderGRUNormalized.ipynb",
+    "source_sha256": "60274047484451d7458ea28da776b7162989f1ac839ffe71670890a44196e824",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/TrainStrengthArchitecture.ipynb",
+    "portfolio_path": "notebooks/TrainStrengthArchitecture.ipynb",
+    "source_sha256": "0439f747ef568bfec364e933c218eba7912fe2a067d21f8f876a2276ae624d4f",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/CustomArchitecture.ipynb",
+    "portfolio_path": "notebooks/CustomArchitecture.ipynb",
+    "source_sha256": "b8c818ed0ed69522cf486f2233f536efd2bd2d28cde0830117048792909b6876",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/TransformerScratch.ipynb",
+    "portfolio_path": "notebooks/TransformerScratch.ipynb",
+    "source_sha256": "7e1afdf8105a5decc4e6c0f9f32582d478ca8804d3508c63b4ed2ad3ecae4a94",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/CustomArchitecture.py",
+    "portfolio_path": "src/CustomArchitecture.py",
+    "source_sha256": "fbe99ce059f244b9252154cdeb471d244b50abb75ae410fc85138c949238489d",
+    "changes": "Credential literals replaced by environment variables where present."
+  },
+  {
+    "source": "~/old/content/old/CustomArchitectureV2.py",
+    "portfolio_path": "src/CustomArchitectureV2.py",
+    "source_sha256": "3b0262ac1f6fbdef9538ae5cded680e0e1681f4f6cbd8ff826779d8b13b5cf5a",
+    "changes": "Credential literals replaced by environment variables where present."
+  },
+  {
+    "source": "~/old/content/old/AlgoTrader.py",
+    "portfolio_path": "src/AlgoTrader.py",
+    "source_sha256": "f61b50b84a485c6e76a540601336d5c00a9d82a92ede6b4aaeffa78f1dd34d48",
+    "changes": "Credential literals replaced by environment variables where present."
+  },
+  {
+    "source": "~/old/content/old/utils.py",
+    "portfolio_path": "src/utils.py",
+    "source_sha256": "dfd5944a40c5bc2facdaee4b0c3092c117f20c2b194ac6896ab060f3a32f8de2",
+    "changes": "Credential literals replaced by environment variables where present."
+  },
+  {
+    "source": "~/old/content/old/AlgosFromScratch/Algos.py",
+    "portfolio_path": "fundamentals/Algos.py",
+    "source_sha256": "94e0fb7e4472e7e1ba726446002c548845f9fcd46e663e39f904f2ac63bbd876",
+    "changes": "Credential literals replaced by environment variables where present."
+  },
+  {
+    "source": "~/old/content/old/AlgosFromScratch/Perceptron&Linear.ipynb",
+    "portfolio_path": "fundamentals/Perceptron&Linear.ipynb",
+    "source_sha256": "95699b90b64830423546eb363432a9e335cde815cef1466889ef294cc62c4107",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/AlgosFromScratch/RNN&LSTM&GRU.ipynb",
+    "portfolio_path": "fundamentals/RNN&LSTM&GRU.ipynb",
+    "source_sha256": "c95b14057dc3b76f1a647f275afeae10a213d32455773657da36c09a039ae66f",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  },
+  {
+    "source": "~/old/content/old/AlgosFromScratch/Transformer.ipynb",
+    "portfolio_path": "fundamentals/Transformer.ipynb",
+    "source_sha256": "733dd4efe70357c965ad837ce3d2dc207ec9bd681fb32cc23a9824a0720d9943",
+    "changes": "Credential literals replaced by environment variables; notebook outputs and cell metadata removed."
+  }
+]
