@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'results'
 OUT=ROOT/'slide-visuals'
 for sub in ['wide','square']:
-    for stem in ['03-v3-target-leakage','05-v5-cnn-bigru','05b-cnn-bigru-loss']:
+    for stem in ['03-v3-target-leakage','05-v5-cnn-bigru','05b-cnn-bigru-loss','06-v6-autoformer','06b-autoformer-loss']:
         for suffix in ['.png','.svg']:(OUT/sub/(stem+suffix)).unlink(missing_ok=True)
 BLUE='#147bc1';ORANGE='#dc7736';INK='#171b21';GRAY='#76808a';PALE='#dcebf7';RED='#d35749';GREEN='#278674'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':19,'axes.labelsize':19,'xtick.labelsize':17,'ytick.labelsize':17,'axes.edgecolor':'#8d949b','axes.linewidth':1,'text.color':INK,'axes.labelcolor':INK,'xtick.color':GRAY,'ytick.color':GRAY,'svg.fonttype':'none'})
@@ -152,14 +152,14 @@ def autoformer(slug,square=False):
         arrow(ax,(.34,.30),(.43,.35));box(ax,(.45,.23),.31,.25,'Auto-\ncorrelation',GREEN,23);arrow(ax,(.78,.36),(.87,.46));ax.text(.92,.47,'+',fontsize=30,weight='bold',ha='center',va='center');arrow(ax,(.92,.42),(.92,.30));ax.plot(.87+x*.12,.16+trend*.4+season*.4,color=BLUE,lw=4);ax.text(.93,.03,'Forecast',ha='center',fontsize=20,weight='bold')
     save(fig,slug,square)
 
-main=[('01-v1-mlp-loss',lambda s:loss('01-v1-mlp-loss','v1_mlp_raw','MLP loss',s)),('02-v2-normalization',lambda s:normalize('02-v2-normalization',s)),('03-v3-backtest-results',lambda s:backtest('03-v3-backtest-results',s)),('04-v4-gru-forecast',lambda s:forecast('04-v4-gru-forecast',s)),('05-v5-cnn-bigru-loss',lambda s:loss('05-v5-cnn-bigru-loss','v5_cnn_bigru','CNN-BiGRU loss',s)),('06-v6-autoformer',lambda s:autoformer('06-v6-autoformer',s))]
+main=[('01-v1-mlp-loss',lambda s:loss('01-v1-mlp-loss','v1_mlp_raw','MLP loss',s)),('02-v2-normalization',lambda s:normalize('02-v2-normalization',s)),('03-v3-backtest-results',lambda s:backtest('03-v3-backtest-results',s)),('04-v4-gru-forecast',lambda s:forecast('04-v4-gru-forecast',s)),('05-v5-cnn-bigru-loss',lambda s:loss('05-v5-cnn-bigru-loss','v5_cnn_bigru','CNN-BiGRU loss',s)),('06-v6-autoformer-loss',lambda s:loss('06-v6-autoformer-loss','v6_autoformer','Autoformer loss',s,True))]
 for _,fn in main:fn(False);fn(True)
 mlp('01b-mlp-architecture',True)
 loss('02b-normalized-mlp-loss','v2_mlp_scaled','Normalized MLP loss',True)
 leakage_loss('03b-leakage-comparison',True)
 loss('04b-corrected-gru-loss','v4_gru_corrected','Corrected GRU loss',True)
 pipeline('05b-cnn-bigru-architecture','cnn',True)
-loss('06b-autoformer-loss','v6_autoformer','Autoformer loss',True,True)
+autoformer('06b-autoformer-architecture',True)
 
 archive=DATA/'archived-2024-loss.json'
 if archive.exists():

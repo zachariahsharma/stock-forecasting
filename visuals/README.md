@@ -15,7 +15,7 @@ If keeping two separate picture slots, use the **1200 × 1200** images in `slide
 | V3 early backtest | `03-v3-backtest-results.png` | `03b-leakage-comparison.png` |
 | V4 revised pipeline | `04-v4-gru-forecast.png` | `04b-corrected-gru-loss.png` |
 | V5 CNN-BiGRU | `05-v5-cnn-bigru-loss.png` | `05b-cnn-bigru-architecture.png` |
-| V6 Autoformer | `06-v6-autoformer.png` | `06b-autoformer-loss.png` |
+| V6 Autoformer | `06-v6-autoformer-loss.png` | `06b-autoformer-architecture.png` |
 
 The primary six also have square versions with the same filenames. SVG versions are included for resizing without loss of quality. For the two existing V5 slots, the square pipeline and square loss curve make a useful pair; the same pairing works for V6.
 
