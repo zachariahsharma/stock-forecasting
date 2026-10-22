@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="648pt" height="345.6pt" viewBox="0 0 648 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-22T12:17:46.521672</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 648 345.6 
+L 648 0 
+L 0 0 
+L 0 345.6 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 64.8 259.2 
+L 291.6 259.2 
+L 291.6 93.312 
+L 64.8 93.312 
+L 64.8 259.2 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #76808a; font: 17px 'DejaVu Sans'; text-anchor: end" x="57.8" y="226.326114" transform="rotate(-0 57.8 226.326114)">110</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #76808a; font: 17px 'DejaVu Sans'; text-anchor: end" x="57.8" y="140.021963" transform="rotate(-0 57.8 140.021963)">120</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <path d="M 75.109091 194.548652 
+L 78.603698 207.344938 
+L 82.098305 178.488897 
+L 85.592912 176.942992 
+L 89.087519 206.228539 
+L 92.582126 221.601203 
+L 96.076733 251.659636 
+L 99.571341 223.834133 
+L 103.065948 208.976771 
+L 106.560555 249.254851 
+L 110.055162 239.80796 
+L 113.549769 204.940351 
+L 117.044376 181.92422 
+L 120.538983 189.395832 
+L 124.03359 174.624266 
+L 127.528197 166.207913 
+L 131.022804 198.585072 
+L 134.517411 168.698494 
+L 138.012018 197.382746 
+L 141.506626 180.893551 
+L 145.001233 181.838293 
+L 148.49584 164.662073 
+L 151.990447 100.852364 
+L 155.485054 129.193235 
+L 158.979661 128.420216 
+L 162.474268 132.542564 
+L 165.968875 147.056479 
+L 169.463482 173.164288 
+L 172.958089 160.024423 
+L 176.452696 165.520822 
+L 179.947304 175.139568 
+L 183.441911 181.237064 
+L 186.936518 181.151202 
+L 190.431125 167.839614 
+L 193.925732 214.215453 
+L 197.420339 178.83241 
+L 200.914946 234.311628 
+L 204.409553 235.084514 
+L 207.90416 220.742388 
+L 211.398767 182.010016 
+L 214.893374 146.970552 
+L 218.387982 148.131857 
+L 221.882589 168.520844 
+L 225.377196 171.531863 
+L 228.871803 141.249623 
+L 232.36641 143.658425 
+L 235.861017 143.22826 
+L 239.355624 134.281197 
+L 242.850231 142.109886 
+L 246.344838 153.809856 
+L 249.839445 148.562022 
+L 253.334052 159.7459 
+L 256.828659 189.770094 
+L 260.323267 178.414229 
+L 263.817874 171.015705 
+L 267.312481 166.198102 
+L 270.807088 145.034845 
+L 274.301695 113.462112 
+L 277.796302 110.3651 
+L 281.290909 111.569468 
+" clip-path="url(#p81fb6290bd)" style="fill: none; stroke: #76808a; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.8 259.2 
+L 64.8 93.312 
+" style="fill: none; stroke: #8d949b; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171b21; font: 700 24px 'DejaVu Sans'; text-anchor: middle" x="178.2" y="78.312" transform="rotate(-0 178.2 78.312)">Raw prices ($)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 395.28 259.2 
+L 622.08 259.2 
+L 622.08 93.312 
+L 395.28 93.312 
+L 395.28 259.2 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #76808a; font: 17px 'DejaVu Sans'; text-anchor: end" x="388.28" y="258.118308" transform="rotate(-0 388.28 258.118308)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="fill: #76808a; font: 17px 'DejaVu Sans'; text-anchor: end" x="388.28" y="167.633945" transform="rotate(-0 388.28 167.633945)">0.6</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_6">
+    <path d="M 405.589091 194.54865 
+L 409.083698 207.344937 
+L 412.578305 178.488898 
+L 416.072912 176.942993 
+L 419.567519 206.228539 
+L 423.062126 221.601202 
+L 426.556733 251.659636 
+L 430.051341 223.834134 
+L 433.545948 208.97677 
+L 437.040555 249.254851 
+L 440.535162 239.807959 
+L 444.029769 204.940352 
+L 447.524376 181.92422 
+L 451.018983 189.39583 
+L 454.51359 174.62427 
+L 458.008197 166.207908 
+L 461.502804 198.585072 
+L 464.997411 168.698493 
+L 468.492018 197.382746 
+L 471.986626 180.893549 
+L 475.481233 181.838292 
+L 478.97584 164.662075 
+L 482.470447 100.852364 
+L 485.965054 129.193231 
+L 489.459661 128.42022 
+L 492.954268 132.542562 
+L 496.448875 147.056476 
+L 499.943482 173.164288 
+L 503.438089 160.024422 
+L 506.932696 165.520821 
+L 510.427304 175.139571 
+L 513.921911 181.237061 
+L 517.416518 181.1512 
+L 520.911125 167.839612 
+L 524.405732 214.215453 
+L 527.900339 178.83241 
+L 531.394946 234.311628 
+L 534.889553 235.084514 
+L 538.38416 220.742388 
+L 541.878767 182.010014 
+L 545.373374 146.970552 
+L 548.867982 148.131853 
+L 552.362589 168.520847 
+L 555.857196 171.531866 
+L 559.351803 141.249621 
+L 562.84641 143.658426 
+L 566.341017 143.228257 
+L 569.835624 134.281196 
+L 573.330231 142.109887 
+L 576.824838 153.809853 
+L 580.319445 148.562022 
+L 583.814052 159.745904 
+L 587.308659 189.770093 
+L 590.803267 178.414228 
+L 594.297874 171.015701 
+L 597.792481 166.198101 
+L 601.287088 145.034847 
+L 604.781695 113.462115 
+L 608.276302 110.3651 
+L 611.770909 111.569466 
+" clip-path="url(#p7b4c76925e)" style="fill: none; stroke: #147bc1; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 395.28 259.2 
+L 395.28 93.312 
+" style="fill: none; stroke: #8d949b; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="fill: #171b21; font: 700 24px 'DejaVu Sans'; text-anchor: middle" x="508.68" y="78.312" transform="rotate(-0 508.68 78.312)">Scaled 0–1</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="fill: #171b21; font: 700 29px 'DejaVu Sans'; text-anchor: start" x="29.16" y="42.771469" transform="rotate(-0 29.16 42.771469)">Min-Max scaling</text>
+  </g>
+  <g id="text_8">
+   <text style="fill: #76808a; font: 700 11px 'DejaVu Sans'; text-anchor: end" x="615.6" y="34.278281" transform="rotate(-0 615.6 34.278281)">DATA DEMO</text>
+  </g>
+  <g id="text_9">
+   <text style="fill: #76808a; font: 23px 'DejaVu Sans'; text-anchor: middle" x="324" y="311.04" transform="rotate(-0 324 311.04)">Same shape, different range</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p81fb6290bd">
+   <rect x="64.8" y="93.312" width="226.8" height="165.888"/>
+  </clipPath>
+  <clipPath id="p7b4c76925e">
+   <rect x="395.28" y="93.312" width="226.8" height="165.888"/>
+  </clipPath>
+ </defs>
+</svg>

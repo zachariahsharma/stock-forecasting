@@ -4,7 +4,9 @@ A portfolio archive of Zach Sharma's stock forecasting experiments: data prepara
 
 **Outcome:** the project developed forecasting and data engineering skills; profitable trading or reliable predictive accuracy was not established. Suspicious early results led to the discovery of target leakage, as documented in the original project write-up.
 
-![Recovered CNN-BiGRU source](screenshots/05-v5-cnn-bigru.png)
+![Forecasting slide visuals](visuals/slide-visuals/overview.png)
+
+**Slide visuals:** [large charts and diagrams](visuals/) replace the small code captures. This includes six wide visuals, square alternatives, genuine short RTX 4090 training runs, and a bonus original 2024 loss curve. Fresh runs and historical evidence are labeled separately.
 
 ## The six stages
 
@@ -35,7 +37,7 @@ Notebook cell numbers are **zero-based archive indices**. They are not execution
 
 Code screenshots show code recovered from the archive, rendered for readability. They are not screenshots of a live training run. The two saved plots were extracted from original notebook output without rerunning the model. Their data split, execution history, and performance have not been independently validated. The notebook also contains incomplete experiments and errors.
 
-No model was retrained, no market data was fetched, and no trading script was executed while preparing this collection. Historical results should not be read as evidence of profitable or statistically significant predictions.
+The archival files were not executed during the initial packaging. A separate set of fresh demonstration runs was added on October 22, 2026; see [`visuals/`](visuals/) for the method and results. No new market data was fetched and no trading script was executed. Historical results should not be read as evidence of profitable or statistically significant predictions.
 
 ## Opening the archive
 

@@ -1,5 +1,7 @@
 # Screenshot guide
 
+**Updated October 22:** use the [new slide visuals](visuals/README.md) for the presentation. Those charts and diagrams are designed for the small picture areas. The guide below refers to the older source-code screenshots, retained as code evidence.
+
 Use the numbered images in `screenshots/`. The first six follow the slide's V1–V6 reading order. Keep the image subtitle visible: it records what was actually recovered.
 
 | Slide section | Primary image | Optional second image | Evidence limit |

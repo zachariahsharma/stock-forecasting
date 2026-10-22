@@ -1,0 +1,90 @@
+{
+  "created": "2026-10-22",
+  "kind": "fresh demonstration runs, not historical results",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "seed": 42,
+  "source": "~/old/content/data/BigTestDataset/CLOSEDATAFINAL.feather",
+  "ticker": "AAPL",
+  "observations": 3000,
+  "price_series_sha256": "83b97d887fd383a2a504f989a91ab2f7d99ce5d9677d6d518312ac3571c0d527",
+  "split": {
+    "train": [
+      0,
+      2100
+    ],
+    "validation": [
+      2100,
+      2550
+    ],
+    "test": [
+      2550,
+      3000
+    ]
+  },
+  "normalization": {
+    "fit": "training prices only",
+    "min": 12.170522689819336,
+    "max": 133.52224731445312
+  },
+  "lookback": 20,
+  "notes": [
+    "Models and hyperparameters are small reconstructions of project stages, not exact archived checkpoints.",
+    "Each target is strictly after its input window except the intentionally leaked V3 demonstration.",
+    "Validation/test windows may use earlier observed history; all targets stay in their chronological split.",
+    "Validation used for checkpoint selection; test used only after selection.",
+    "No financial performance or profitability evaluation."
+  ],
+  "models": {
+    "v1_mlp_raw": {
+      "test_mae_usd": 3.488706588745117,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 19,
+      "seconds": 1.97,
+      "normalized": false,
+      "intentionally_leaked": false
+    },
+    "v2_mlp_scaled": {
+      "test_mae_usd": 3.6018452644348145,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 38,
+      "seconds": 0.74,
+      "normalized": true,
+      "intentionally_leaked": false
+    },
+    "v3_gru_leaked": {
+      "test_mae_usd": 7.942375183105469,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 60,
+      "seconds": 6.45,
+      "normalized": true,
+      "intentionally_leaked": true
+    },
+    "v4_gru_corrected": {
+      "test_mae_usd": 7.794354438781738,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 60,
+      "seconds": 1.14,
+      "normalized": true,
+      "intentionally_leaked": false
+    },
+    "v5_cnn_bigru": {
+      "test_mae_usd": 39.18186569213867,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 10,
+      "seconds": 6.27,
+      "normalized": true,
+      "intentionally_leaked": false
+    },
+    "v6_autoformer": {
+      "test_mae_usd": 2.8627590465533497,
+      "persistence_mae_usd": 1.9536445140838623,
+      "checkpoint_epoch": 35,
+      "seconds": 9.11
+    }
+  },
+  "ordering_verification": {
+    "source_index": "unique increasing numeric index",
+    "calendar_dates": "not recovered",
+    "split_order": "sequential archive row order"
+  }
+}
