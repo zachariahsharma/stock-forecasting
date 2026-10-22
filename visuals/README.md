@@ -1,5 +1,9 @@
 # Slide visuals
 
+**Preferred version: [native TensorBoard screenshots](tensorboard/).** These replace the styled chart images for the current slide. They retain TensorBoard's own formatting and include the run legend/value table. See that folder for six primary panels, two bonus panels, full-window screenshots, and replayable scalar event files.
+
+The remaining guide describes the earlier Matplotlib figures, retained as alternatives.
+
 These replace the small code screenshots with charts and diagrams that remain readable in the forecasting slide.
 
 ## Use on the slide

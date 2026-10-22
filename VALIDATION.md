@@ -25,3 +25,11 @@ These checks concern the archival packaging. They do not establish model correct
 - Replaced the V3 leakage schematic with an archived portfolio curve extracted from 163 values in `MLPTrader_2024-07-02_09-22-09_stats.csv`. The recorded start is $500 and the recorded final/peak value is $75,482.37801000799.
 - Checked 89 archived stats CSVs and 47 tear sheets; the remembered billion-dollar result was not located. The graph uses the recorded values and is labeled an unvalidated simulation. Exact model-stage assignment and this run's causal connection to target leakage remain unverified.
 - Replaced the V5 primary model diagram with the recorded train/validation MSE curve from the fresh CNN-BiGRU demonstration. The architecture diagram remains a square alternative.
+
+## Native TensorBoard screenshots
+
+- Exported the recorded JSON metrics into TensorBoard scalar event files and captured the actual native browser UI. These are current screenshots of recorded metrics, not historical training-session screenshots.
+- Captured eight expanded chart cards and eight corresponding full-window screenshots. Retained native TensorBoard formatting and run labels, set smoothing to zero, and disabled outlier exclusion.
+- Confirmed the Autoformer configuration uses a Student-t output distribution and NLL loss. The screenshot preserves that objective, including its negative values.
+- The exported event timestamps refer to display preparation; the UI's Relative time column does not measure training runtime.
+- Read back and compared all 3,063 exported scalar points across 17 series and seven runs against the JSON sources, within float32 precision.

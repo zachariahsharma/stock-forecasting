@@ -4,9 +4,9 @@ A portfolio archive of Zach Sharma's stock forecasting experiments: data prepara
 
 **Outcome:** the project developed forecasting and data engineering skills; profitable trading or reliable predictive accuracy was not established. Suspicious early results led to the discovery of target leakage, as documented in the original project write-up.
 
-![Forecasting slide visuals](visuals/slide-visuals/overview.png)
+![Native TensorBoard panels](visuals/tensorboard/overview.png)
 
-**Slide visuals:** [large charts and diagrams](visuals/) replace the small code captures. This includes six wide visuals, square alternatives, genuine short RTX 4090 training runs, and a bonus original 2024 loss curve. Fresh runs and historical evidence are labeled separately.
+**Slide visuals:** [native TensorBoard screenshots](visuals/tensorboard/) show the recorded curves with TensorBoard's own formatting. Fresh demonstration runs and historical evidence are labeled separately. Earlier Matplotlib figures and diagrams remain under [`visuals/`](visuals/) as alternatives.
 
 ## The six stages
 
