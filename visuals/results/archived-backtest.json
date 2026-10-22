@@ -1,0 +1,664 @@
+{
+  "source": "~/old/content/old/logs/MLPTrader_2024-07-02_09-22-09_stats.csv",
+  "kind": "original historical simulation log",
+  "model_stage": "not independently verified",
+  "warning": "Unvalidated historical backtest; not actual account returns. This specific run has not been proved to be the target-leakage run.",
+  "initial_value": 500.0,
+  "final_value": 75482.37801000799,
+  "peak_value": 75482.37801000799,
+  "series": [
+    {
+      "step": 0,
+      "portfolio_value": 500.0
+    },
+    {
+      "step": 1,
+      "portfolio_value": 598.3700028657913
+    },
+    {
+      "step": 2,
+      "portfolio_value": 608.3300043344498
+    },
+    {
+      "step": 3,
+      "portfolio_value": 687.4380051195621
+    },
+    {
+      "step": 4,
+      "portfolio_value": 687.4380051195621
+    },
+    {
+      "step": 5,
+      "portfolio_value": 679.5157025858759
+    },
+    {
+      "step": 6,
+      "portfolio_value": 784.0257054969668
+    },
+    {
+      "step": 7,
+      "portfolio_value": 796.6157042786479
+    },
+    {
+      "step": 8,
+      "portfolio_value": 916.695702533424
+    },
+    {
+      "step": 9,
+      "portfolio_value": 951.2071036502718
+    },
+    {
+      "step": 10,
+      "portfolio_value": 951.2071036502718
+    },
+    {
+      "step": 11,
+      "portfolio_value": 951.2071036502718
+    },
+    {
+      "step": 12,
+      "portfolio_value": 1095.5871130630374
+    },
+    {
+      "step": 13,
+      "portfolio_value": 1104.8851139947772
+    },
+    {
+      "step": 14,
+      "portfolio_value": 1206.3751123949885
+    },
+    {
+      "step": 15,
+      "portfolio_value": 1206.3751123949885
+    },
+    {
+      "step": 16,
+      "portfolio_value": 1205.8621091470122
+    },
+    {
+      "step": 17,
+      "portfolio_value": 1327.9001069888473
+    },
+    {
+      "step": 18,
+      "portfolio_value": 1342.9901040419936
+    },
+    {
+      "step": 19,
+      "portfolio_value": 1469.640086017549
+    },
+    {
+      "step": 20,
+      "portfolio_value": 1502.4800805673003
+    },
+    {
+      "step": 21,
+      "portfolio_value": 1502.4800805673003
+    },
+    {
+      "step": 22,
+      "portfolio_value": 1502.4800805673003
+    },
+    {
+      "step": 23,
+      "portfolio_value": 1659.9450656995175
+    },
+    {
+      "step": 24,
+      "portfolio_value": 1679.8792140111327
+    },
+    {
+      "step": 25,
+      "portfolio_value": 1947.2492354735728
+    },
+    {
+      "step": 26,
+      "portfolio_value": 1990.98923047632
+    },
+    {
+      "step": 27,
+      "portfolio_value": 1990.98923047632
+    },
+    {
+      "step": 28,
+      "portfolio_value": 1990.98923047632
+    },
+    {
+      "step": 29,
+      "portfolio_value": 2181.6892172917724
+    },
+    {
+      "step": 30,
+      "portfolio_value": 2275.3340552672744
+    },
+    {
+      "step": 31,
+      "portfolio_value": 2807.844042800367
+    },
+    {
+      "step": 32,
+      "portfolio_value": 3354.958189748228
+    },
+    {
+      "step": 33,
+      "portfolio_value": 3354.958189748228
+    },
+    {
+      "step": 34,
+      "portfolio_value": 3317.106173871457
+    },
+    {
+      "step": 35,
+      "portfolio_value": 3974.336236177384
+    },
+    {
+      "step": 36,
+      "portfolio_value": 4569.977848945557
+    },
+    {
+      "step": 37,
+      "portfolio_value": 5737.865862487255
+    },
+    {
+      "step": 38,
+      "portfolio_value": 6650.681083081661
+    },
+    {
+      "step": 39,
+      "portfolio_value": 6650.681083081661
+    },
+    {
+      "step": 40,
+      "portfolio_value": 6607.535040543972
+    },
+    {
+      "step": 41,
+      "portfolio_value": 8074.245301739869
+    },
+    {
+      "step": 42,
+      "portfolio_value": 9419.16527225226
+    },
+    {
+      "step": 43,
+      "portfolio_value": 11304.753593461211
+    },
+    {
+      "step": 44,
+      "portfolio_value": 11304.753593461211
+    },
+    {
+      "step": 45,
+      "portfolio_value": 11269.410616700348
+    },
+    {
+      "step": 46,
+      "portfolio_value": 13719.190553490816
+    },
+    {
+      "step": 47,
+      "portfolio_value": 16003.880444113907
+    },
+    {
+      "step": 48,
+      "portfolio_value": 19852.96072823256
+    },
+    {
+      "step": 49,
+      "portfolio_value": 23020.023895327744
+    },
+    {
+      "step": 50,
+      "portfolio_value": 23020.023895327744
+    },
+    {
+      "step": 51,
+      "portfolio_value": 22722.40588461608
+    },
+    {
+      "step": 52,
+      "portfolio_value": 27707.90625595301
+    },
+    {
+      "step": 53,
+      "portfolio_value": 32070.065947644413
+    },
+    {
+      "step": 54,
+      "portfolio_value": 36975.216064207256
+    },
+    {
+      "step": 55,
+      "portfolio_value": 44993.53137945384
+    },
+    {
+      "step": 56,
+      "portfolio_value": 44993.53137945384
+    },
+    {
+      "step": 57,
+      "portfolio_value": 43751.31150292605
+    },
+    {
+      "step": 58,
+      "portfolio_value": 46481.0100152418
+    },
+    {
+      "step": 59,
+      "portfolio_value": 44190.84040950984
+    },
+    {
+      "step": 60,
+      "portfolio_value": 41659.70081257075
+    },
+    {
+      "step": 61,
+      "portfolio_value": 41659.70081257075
+    },
+    {
+      "step": 62,
+      "portfolio_value": 41659.70081257075
+    },
+    {
+      "step": 63,
+      "portfolio_value": 40763.11665622442
+    },
+    {
+      "step": 64,
+      "portfolio_value": 38715.37321243732
+    },
+    {
+      "step": 65,
+      "portfolio_value": 38023.23289893119
+    },
+    {
+      "step": 66,
+      "portfolio_value": 36372.71182839124
+    },
+    {
+      "step": 67,
+      "portfolio_value": 36372.71182839124
+    },
+    {
+      "step": 68,
+      "portfolio_value": 36372.71182839124
+    },
+    {
+      "step": 69,
+      "portfolio_value": 36054.44765869825
+    },
+    {
+      "step": 70,
+      "portfolio_value": 36773.467657010246
+    },
+    {
+      "step": 71,
+      "portfolio_value": 36249.24735633581
+    },
+    {
+      "step": 72,
+      "portfolio_value": 35257.70203028171
+    },
+    {
+      "step": 73,
+      "portfolio_value": 35257.70203028171
+    },
+    {
+      "step": 74,
+      "portfolio_value": 35257.70203028171
+    },
+    {
+      "step": 75,
+      "portfolio_value": 34996.295294742275
+    },
+    {
+      "step": 76,
+      "portfolio_value": 35298.826648066926
+    },
+    {
+      "step": 77,
+      "portfolio_value": 36300.97481603472
+    },
+    {
+      "step": 78,
+      "portfolio_value": 36300.97481603472
+    },
+    {
+      "step": 79,
+      "portfolio_value": 36300.97481603472
+    },
+    {
+      "step": 80,
+      "portfolio_value": 35479.22729986636
+    },
+    {
+      "step": 81,
+      "portfolio_value": 36290.37145417658
+    },
+    {
+      "step": 82,
+      "portfolio_value": 36900.91128015248
+    },
+    {
+      "step": 83,
+      "portfolio_value": 37922.17111801831
+    },
+    {
+      "step": 84,
+      "portfolio_value": 37922.17111801831
+    },
+    {
+      "step": 85,
+      "portfolio_value": 37922.17111801831
+    },
+    {
+      "step": 86,
+      "portfolio_value": 37262.409636032855
+    },
+    {
+      "step": 87,
+      "portfolio_value": 36296.09933306006
+    },
+    {
+      "step": 88,
+      "portfolio_value": 31107.87705857781
+    },
+    {
+      "step": 89,
+      "portfolio_value": 31107.87705857781
+    },
+    {
+      "step": 90,
+      "portfolio_value": 31107.87705857781
+    },
+    {
+      "step": 91,
+      "portfolio_value": 31107.87705857781
+    },
+    {
+      "step": 92,
+      "portfolio_value": 31107.87705857781
+    },
+    {
+      "step": 93,
+      "portfolio_value": 31787.00480629233
+    },
+    {
+      "step": 94,
+      "portfolio_value": 40253.576062929904
+    },
+    {
+      "step": 95,
+      "portfolio_value": 41912.59767634896
+    },
+    {
+      "step": 96,
+      "portfolio_value": 41912.59767634896
+    },
+    {
+      "step": 97,
+      "portfolio_value": 41912.59767634896
+    },
+    {
+      "step": 98,
+      "portfolio_value": 41115.944254863534
+    },
+    {
+      "step": 99,
+      "portfolio_value": 38174.39773647813
+    },
+    {
+      "step": 100,
+      "portfolio_value": 38817.61442105798
+    },
+    {
+      "step": 101,
+      "portfolio_value": 38519.21495531825
+    },
+    {
+      "step": 102,
+      "portfolio_value": 38519.21495531825
+    },
+    {
+      "step": 103,
+      "portfolio_value": 38519.21495531825
+    },
+    {
+      "step": 104,
+      "portfolio_value": 38439.33696445255
+    },
+    {
+      "step": 105,
+      "portfolio_value": 40256.03882297306
+    },
+    {
+      "step": 106,
+      "portfolio_value": 42513.950406396674
+    },
+    {
+      "step": 107,
+      "portfolio_value": 42529.76071068077
+    },
+    {
+      "step": 108,
+      "portfolio_value": 42529.76071068077
+    },
+    {
+      "step": 109,
+      "portfolio_value": 42529.76071068077
+    },
+    {
+      "step": 110,
+      "portfolio_value": 42441.72377212077
+    },
+    {
+      "step": 111,
+      "portfolio_value": 44989.82409907608
+    },
+    {
+      "step": 112,
+      "portfolio_value": 46563.764450145056
+    },
+    {
+      "step": 113,
+      "portfolio_value": 46878.24427075415
+    },
+    {
+      "step": 114,
+      "portfolio_value": 46878.24427075415
+    },
+    {
+      "step": 115,
+      "portfolio_value": 46878.24427075415
+    },
+    {
+      "step": 116,
+      "portfolio_value": 46368.83768410712
+    },
+    {
+      "step": 117,
+      "portfolio_value": 46176.729646396925
+    },
+    {
+      "step": 118,
+      "portfolio_value": 53063.08989657192
+    },
+    {
+      "step": 119,
+      "portfolio_value": 55053.89934010535
+    },
+    {
+      "step": 120,
+      "portfolio_value": 55053.89934010535
+    },
+    {
+      "step": 121,
+      "portfolio_value": 55053.89934010535
+    },
+    {
+      "step": 122,
+      "portfolio_value": 55257.06197629003
+    },
+    {
+      "step": 123,
+      "portfolio_value": 58359.22581217317
+    },
+    {
+      "step": 124,
+      "portfolio_value": 59187.607984221264
+    },
+    {
+      "step": 125,
+      "portfolio_value": 59187.607984221264
+    },
+    {
+      "step": 126,
+      "portfolio_value": 59187.607984221264
+    },
+    {
+      "step": 127,
+      "portfolio_value": 58789.06409341125
+    },
+    {
+      "step": 128,
+      "portfolio_value": 56243.17429679661
+    },
+    {
+      "step": 129,
+      "portfolio_value": 55790.22015419632
+    },
+    {
+      "step": 130,
+      "portfolio_value": 54430.385560661845
+    },
+    {
+      "step": 131,
+      "portfolio_value": 54430.385560661845
+    },
+    {
+      "step": 132,
+      "portfolio_value": 54430.385560661845
+    },
+    {
+      "step": 133,
+      "portfolio_value": 54536.41451483397
+    },
+    {
+      "step": 134,
+      "portfolio_value": 56166.46962206988
+    },
+    {
+      "step": 135,
+      "portfolio_value": 63418.65463697343
+    },
+    {
+      "step": 136,
+      "portfolio_value": 59233.3022699299
+    },
+    {
+      "step": 137,
+      "portfolio_value": 59233.3022699299
+    },
+    {
+      "step": 138,
+      "portfolio_value": 59233.3022699299
+    },
+    {
+      "step": 139,
+      "portfolio_value": 59268.10218142893
+    },
+    {
+      "step": 140,
+      "portfolio_value": 60259.34279328014
+    },
+    {
+      "step": 141,
+      "portfolio_value": 58135.616404706496
+    },
+    {
+      "step": 142,
+      "portfolio_value": 58135.616404706496
+    },
+    {
+      "step": 143,
+      "portfolio_value": 58135.616404706496
+    },
+    {
+      "step": 144,
+      "portfolio_value": 58209.3260833564
+    },
+    {
+      "step": 145,
+      "portfolio_value": 61417.9776096883
+    },
+    {
+      "step": 146,
+      "portfolio_value": 65937.5421205702
+    },
+    {
+      "step": 147,
+      "portfolio_value": 67614.76475053455
+    },
+    {
+      "step": 148,
+      "portfolio_value": 67614.76475053455
+    },
+    {
+      "step": 149,
+      "portfolio_value": 67614.76475053455
+    },
+    {
+      "step": 150,
+      "portfolio_value": 67081.48506971027
+    },
+    {
+      "step": 151,
+      "portfolio_value": 74969.3001392665
+    },
+    {
+      "step": 152,
+      "portfolio_value": 74108.97978285278
+    },
+    {
+      "step": 153,
+      "portfolio_value": 73102.29358414139
+    },
+    {
+      "step": 154,
+      "portfolio_value": 73102.29358414139
+    },
+    {
+      "step": 155,
+      "portfolio_value": 73102.29358414139
+    },
+    {
+      "step": 156,
+      "portfolio_value": 72117.50309971298
+    },
+    {
+      "step": 157,
+      "portfolio_value": 75458.91087022747
+    },
+    {
+      "step": 158,
+      "portfolio_value": 73390.35570040668
+    },
+    {
+      "step": 159,
+      "portfolio_value": 75482.37801000799
+    },
+    {
+      "step": 160,
+      "portfolio_value": 75482.37801000799
+    },
+    {
+      "step": 161,
+      "portfolio_value": 75482.37801000799
+    },
+    {
+      "step": 162,
+      "portfolio_value": 75482.37801000799
+    }
+  ],
+  "search_note": "Largest recorded portfolio value among 89 archived stats CSV files was 75482.37801000799; the billion-dollar result was not located. Checked 47 tear sheets too; largest positive reported total return was 14996 percent."
+}

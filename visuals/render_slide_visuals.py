@@ -11,6 +11,9 @@ from matplotlib.ticker import MaxNLocator, LogLocator, NullLocator, FuncFormatte
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'results'
 OUT=ROOT/'slide-visuals'
+for sub in ['wide','square']:
+    for stem in ['03-v3-target-leakage','05-v5-cnn-bigru','05b-cnn-bigru-loss']:
+        for suffix in ['.png','.svg']:(OUT/sub/(stem+suffix)).unlink(missing_ok=True)
 BLUE='#147bc1';ORANGE='#dc7736';INK='#171b21';GRAY='#76808a';PALE='#dcebf7';RED='#d35749';GREEN='#278674'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':19,'axes.labelsize':19,'xtick.labelsize':17,'ytick.labelsize':17,'axes.edgecolor':'#8d949b','axes.linewidth':1,'text.color':INK,'axes.labelcolor':INK,'xtick.color':GRAY,'ytick.color':GRAY,'svg.fonttype':'none'})
 records={p.stem:json.loads(p.read_text()) for p in DATA.glob('v*.json')}
@@ -103,6 +106,18 @@ def forecast(slug,square=False):
     ax.set_xlabel('Held-out steps',labelpad=10);ax.set_ylabel('Price ($)',labelpad=10);ax.yaxis.set_major_locator(MaxNLocator(3));ax.xaxis.set_major_locator(MaxNLocator(3,integer=True));ax.legend(frameon=False,ncol=2,fontsize=16 if square else 19,loc='upper left',bbox_to_anchor=(0,1.17),handlelength=1.2,columnspacing=.8)
     save(fig,slug,square)
 
+def backtest(slug,square=False):
+    r=json.loads((DATA/'archived-backtest.json').read_text())
+    fig=start('Backtest result',square,'ORIGINAL LOG');ax=chart(fig,square)
+    x=[v['step'] for v in r['series']];y=[v['portfolio_value'] for v in r['series']]
+    ax.fill_between(x,y,0,color=BLUE,alpha=.12);ax.plot(x,y,color=BLUE,lw=4)
+    ax.scatter([x[0],x[-1]],[y[0],y[-1]],color=BLUE,s=45,zorder=5)
+    ax.annotate(f'${y[0]:,.0f}',(x[0],y[0]),xytext=(7,12),textcoords='offset points',fontsize=18,weight='bold')
+    ax.annotate(f'${y[-1]:,.0f}',(x[-1],y[-1]),xytext=(-4,17),ha='right',textcoords='offset points',fontsize=23 if square else 28,weight='bold',color=BLUE)
+    ax.set_ylim(0,90000);ax.set_yticks([0,40000,80000]);ax.yaxis.set_major_formatter(FuncFormatter(lambda v,p:'0' if v==0 else f'{v/1000:.0f}k'));ax.xaxis.set_major_locator(MaxNLocator(3,integer=True));ax.set_ylabel('Portfolio ($)');ax.set_xlabel('Backtest step',labelpad=10)
+    fig.text(.95,.82 if square else .845,'Unvalidated simulation',ha='right',fontsize=12,color=RED)
+    save(fig,slug,square)
+
 def pipeline(slug,kind='cnn',square=False):
     title='CNN + BiGRU' if kind=='cnn' else 'GRU sequence model'
     fig,ax=diagram(title,square)
@@ -137,13 +152,13 @@ def autoformer(slug,square=False):
         arrow(ax,(.34,.30),(.43,.35));box(ax,(.45,.23),.31,.25,'Auto-\ncorrelation',GREEN,23);arrow(ax,(.78,.36),(.87,.46));ax.text(.92,.47,'+',fontsize=30,weight='bold',ha='center',va='center');arrow(ax,(.92,.42),(.92,.30));ax.plot(.87+x*.12,.16+trend*.4+season*.4,color=BLUE,lw=4);ax.text(.93,.03,'Forecast',ha='center',fontsize=20,weight='bold')
     save(fig,slug,square)
 
-main=[('01-v1-mlp-loss',lambda s:loss('01-v1-mlp-loss','v1_mlp_raw','MLP loss',s)),('02-v2-normalization',lambda s:normalize('02-v2-normalization',s)),('03-v3-target-leakage',lambda s:leakage('03-v3-target-leakage',s)),('04-v4-gru-forecast',lambda s:forecast('04-v4-gru-forecast',s)),('05-v5-cnn-bigru',lambda s:pipeline('05-v5-cnn-bigru','cnn',s)),('06-v6-autoformer',lambda s:autoformer('06-v6-autoformer',s))]
+main=[('01-v1-mlp-loss',lambda s:loss('01-v1-mlp-loss','v1_mlp_raw','MLP loss',s)),('02-v2-normalization',lambda s:normalize('02-v2-normalization',s)),('03-v3-backtest-results',lambda s:backtest('03-v3-backtest-results',s)),('04-v4-gru-forecast',lambda s:forecast('04-v4-gru-forecast',s)),('05-v5-cnn-bigru-loss',lambda s:loss('05-v5-cnn-bigru-loss','v5_cnn_bigru','CNN-BiGRU loss',s)),('06-v6-autoformer',lambda s:autoformer('06-v6-autoformer',s))]
 for _,fn in main:fn(False);fn(True)
 mlp('01b-mlp-architecture',True)
 loss('02b-normalized-mlp-loss','v2_mlp_scaled','Normalized MLP loss',True)
 leakage_loss('03b-leakage-comparison',True)
 loss('04b-corrected-gru-loss','v4_gru_corrected','Corrected GRU loss',True)
-loss('05b-cnn-bigru-loss','v5_cnn_bigru','CNN-BiGRU loss',True)
+pipeline('05b-cnn-bigru-architecture','cnn',True)
 loss('06b-autoformer-loss','v6_autoformer','Autoformer loss',True,True)
 
 archive=DATA/'archived-2024-loss.json'

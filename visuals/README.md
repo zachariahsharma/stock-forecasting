@@ -12,9 +12,9 @@ If keeping two separate picture slots, use the **1200 × 1200** images in `slide
 | --- | --- | --- |
 | V1 MLP | `01-v1-mlp-loss.png` | `01b-mlp-architecture.png` |
 | V2 normalization | `02-v2-normalization.png` | `02b-normalized-mlp-loss.png` |
-| V3 GRU / leakage | `03-v3-target-leakage.png` | `03b-leakage-comparison.png` |
+| V3 early backtest | `03-v3-backtest-results.png` | `03b-leakage-comparison.png` |
 | V4 revised pipeline | `04-v4-gru-forecast.png` | `04b-corrected-gru-loss.png` |
-| V5 CNN-BiGRU | `05-v5-cnn-bigru.png` | `05b-cnn-bigru-loss.png` |
+| V5 CNN-BiGRU | `05-v5-cnn-bigru-loss.png` | `05b-cnn-bigru-architecture.png` |
 | V6 Autoformer | `06-v6-autoformer.png` | `06b-autoformer-loss.png` |
 
 The primary six also have square versions with the same filenames. SVG versions are included for resizing without loss of quality. For the two existing V5 slots, the square pipeline and square loss curve make a useful pair; the same pairing works for V6.
@@ -28,7 +28,9 @@ The primary six also have square versions with the same filenames. SVG versions 
 
 For the new forecast chart, the black line is the actual held-out price and the blue line is the model's one-step prediction. Each prediction receives the preceding observed prices; this is rolling one-step evaluation, not a 90-step forecast made at the start of the plot. The displayed 90 points are the final 90 held-out observations, selected as a fixed length for readability.
 
-The leakage experiment intentionally puts the target in the final input slot. Its results are invalid as forecasting evidence; it illustrates the error. The corrected GRU keeps the target outside the input. In this short run, the leaked and corrected curves are similar: the curve does not reproduce the original project's dramatic false success. The leakage schematic is therefore the recommended primary visual for V3.
+The optional leakage experiment intentionally puts the target in the final input slot. Its results are invalid as forecasting evidence; it illustrates the error. The corrected GRU keeps the target outside the input. In this short run, the leaked and corrected curves are similar: the curve does not reproduce the original project's dramatic false success.
+
+The revised V3 primary visual shows the actual portfolio values from the archived `MLPTrader_2024-07-02_09-22-09_stats.csv`: **$500 to $75,482.38**, about **151×**. This is an unvalidated historical simulation, not real account growth. Its exact model-stage assignment and whether this specific run used the target-leakage bug have not been verified. The user's remembered billion-dollar spike was not found: all 89 archived stats CSVs and 47 saved tear sheets were checked. The largest positive total return reported in those tear sheets was 14,996%. The plotted dollar values come directly from the stats CSV, not from extrapolation.
 
 ## Fresh-run method
 
